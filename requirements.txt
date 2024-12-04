@@ -63,8 +63,8 @@ importlib-metadata==7.0.1
 importlib-resources==6.1.1
 inquirerpy==0.3.4
 itsdangerous==2.1.2
-jax==0.4.35
-jaxlib==0.4.35
+jax==0.4.23
+jaxlib==0.4.23
 Jinja2==3.1.2
 jmespath==1.0.1
 jmp==0.0.4
