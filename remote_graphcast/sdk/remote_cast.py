@@ -76,7 +76,7 @@ def remote_cast(
 	pod = runpod.create_pod(
 		cloud_type="SECURE", # or else someone might snoop your session and steal your AWS/CDS credentials
 		name=f"easy-graphcast-{cast_id}", 
-		image_name="jonathanle67/easy-graphcast-image:0.0.1", 
+		image_name="jonathanle67/easy-graphcast-image:latest", 
 		gpu_type_id=gpu_type_id,
 		container_disk_in_gb=container_disk_in_gb,
 		env={
