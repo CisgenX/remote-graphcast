@@ -4,7 +4,7 @@ RUN pip uninstall -y torch
 
 ADD requirements.txt ./
 RUN pip install -r requirements.txt
-RUN pip install -U "jax[cuda12_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+RUN pip install -U "jax[cuda12_pip]==0.4.23" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 
 COPY remote_graphcast ./remote_graphcast
 ADD start.sh ./

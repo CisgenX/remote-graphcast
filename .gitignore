@@ -13,3 +13,4 @@ dist/
 build
 test.py
 .venv3
+.venv
