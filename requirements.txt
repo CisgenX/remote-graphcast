@@ -1,6 +1,6 @@
 absl-py==2.0.0
-ai-models==0.7.3
-ai-models-graphcast==0.1.0
+ai-models==0.3.1
+ai-models-graphcast==0.0.5
 aiodns==3.1.1
 aiohttp==3.9.1
 aiohttp-retry==2.8.3
